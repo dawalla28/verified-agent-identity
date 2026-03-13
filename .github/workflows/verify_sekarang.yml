@@ -1,0 +1,8 @@
+name: Verifikasi-Manual
+on:
+  workflow_dispatch:
+jobs:
+  cetak-link:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "https://signup.billions.network/verify-agent?github=dawalla28"
